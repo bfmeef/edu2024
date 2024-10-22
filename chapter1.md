@@ -959,7 +959,8 @@ docker rm -f $(docker ps -aq)
 <br/>
 
 이제 아래 명령어를 사용하여 도커 이미지를 생성한다. 
-Dockerfile 위치와 같은 폴더에서 실행하여야 하며 생성할 이미지 이름 뒤에 . 을 반드시 사용한다.  
+Dockerfile 위치와 같은 폴더에서 실행하여야 하며 생성할 이미지 이름 뒤에 . 을 반드시 사용한다. 
+=> Dockerfile 위치 알려주는 것 (Dockerfile과 같은 위치에서 실행할 경우 . 아닐 경우에는 Dockerfile 경로 작성) 
 
 
 ```bash
