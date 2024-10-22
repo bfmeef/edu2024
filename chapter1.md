@@ -1511,6 +1511,7 @@ version: '3.3'
 services:
    db:
      image: mysql:5.7
+     platform: linux/amd64
      volumes:
        - ./mysql:/var/lib/mysql
      restart: always
